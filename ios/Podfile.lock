@@ -3,8 +3,6 @@ PODS:
     - Flutter
   - audioplayers (0.0.1):
     - Flutter
-  - camera (0.0.1):
-    - Flutter
   - Flutter (1.0.0)
   - mic_stream (0.0.1):
     - Flutter
@@ -24,7 +22,6 @@ PODS:
 DEPENDENCIES:
   - audio_streams (from `.symlinks/plugins/audio_streams/ios`)
   - audioplayers (from `.symlinks/plugins/audioplayers/ios`)
-  - camera (from `.symlinks/plugins/camera/ios`)
   - Flutter (from `Flutter`)
   - mic_stream (from `.symlinks/plugins/mic_stream/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
@@ -39,8 +36,6 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/audio_streams/ios"
   audioplayers:
     :path: ".symlinks/plugins/audioplayers/ios"
-  camera:
-    :path: ".symlinks/plugins/camera/ios"
   Flutter:
     :path: Flutter
   mic_stream:
@@ -61,7 +56,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   audio_streams: 3e9a3fbaccc0bbd3a9a41b6c588ceda99c8d643b
   audioplayers: 84f968cea3f2deab00ec4f8ff53358b3c0b3992c
-  camera: 38cc83ae9a5667bb5a71c7d9edaf60a91920fd4e
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   mic_stream: 9e7c9fe19d0d8bd0d273bd5428bbd13cab6f4429
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
