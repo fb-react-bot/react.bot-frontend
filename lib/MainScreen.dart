@@ -54,15 +54,57 @@ class _MainScreenState extends State<MainScreen> {
       ],
     ),
     const Persona('Bro', 'assets/persona4/thumbnail.jpeg',
-
+      happyReactions: [
+        Reaction('assets/persona2/excited1.gif', 'persona2/excited1.wav'),
+        Reaction('assets/persona2/excited2.gif', 'persona2/excited1.wav'),
+      ], sadReactions: [
+        Reaction('assets/persona2/sad.png', 'persona2/sad.wav'),
+      ], angryReactions: [
+        Reaction('assets/persona2/angry1.gif', 'persona2/angry1.wav'),
+        Reaction('assets/persona2/angry2.jpg', 'persona2/angry2.wav'),
+      ], neutralReactions: [
+        Reaction('assets/persona2/neutral1.gif', 'persona2/neutral1.wav'),
+      ],
     ),
     const Persona('Dog', 'assets/persona2/thumbnail.png',
-
+      happyReactions: [
+        Reaction('assets/persona2/excited1.gif', 'persona2/excited1.wav'),
+        Reaction('assets/persona2/excited2.gif', 'persona2/excited1.wav'),
+      ], sadReactions: [
+        Reaction('assets/persona2/sad.png', 'persona2/sad.wav'),
+      ], angryReactions: [
+        Reaction('assets/persona2/angry1.gif', 'persona2/angry1.wav'),
+        Reaction('assets/persona2/angry2.jpg', 'persona2/angry2.wav'),
+      ], neutralReactions: [
+        Reaction('assets/persona2/neutral1.gif', 'persona2/neutral1.wav'),
+      ],
     ),
     const Persona('Cat', 'assets/persona3/thumbnail.png',
-
+      happyReactions: [
+        Reaction('assets/persona2/excited1.gif', 'persona2/excited1.wav'),
+        Reaction('assets/persona2/excited2.gif', 'persona2/excited1.wav'),
+      ], sadReactions: [
+        Reaction('assets/persona2/sad.png', 'persona2/sad.wav'),
+      ], angryReactions: [
+        Reaction('assets/persona2/angry1.gif', 'persona2/angry1.wav'),
+        Reaction('assets/persona2/angry2.jpg', 'persona2/angry2.wav'),
+      ], neutralReactions: [
+        Reaction('assets/persona2/neutral1.gif', 'persona2/neutral1.wav'),
+      ],
     ),
-    const Persona('Cha Eun Woo', 'assets/persona5/thumbnail.png'),
+    const Persona('Cha Eun Woo', 'assets/persona5/thumbnail.png',
+      happyReactions: [
+        Reaction('assets/persona2/excited1.gif', 'persona2/excited1.wav'),
+        Reaction('assets/persona2/excited2.gif', 'persona2/excited1.wav'),
+      ], sadReactions: [
+        Reaction('assets/persona2/sad.png', 'persona2/sad.wav'),
+      ], angryReactions: [
+        Reaction('assets/persona2/angry1.gif', 'persona2/angry1.wav'),
+        Reaction('assets/persona2/angry2.jpg', 'persona2/angry2.wav'),
+      ], neutralReactions: [
+        Reaction('assets/persona2/neutral1.gif', 'persona2/neutral1.wav'),
+      ],
+    ),
   ];
   Persona _selectedPersona;
   Reaction _currentReaction;
